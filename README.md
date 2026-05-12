@@ -127,7 +127,7 @@ smart-notes/
 - `note_links` — Notlar arası bağlantılar (many-to-many)
 - `notes_fts` — FTS5 tam metin arama indeksi (otomatik trigger ile senkron)
 
-## 🧪 Testler
+## Testler
 
 ```bash
 pytest tests/ -v
