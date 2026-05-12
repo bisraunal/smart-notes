@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="600" viewBox="0 0 750 600">
+  <defs>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap");
+      .terminal-text { font-family: "JetBrains Mono", "Cascadia Code", "Fira Code", monospace; font-size: 13px; }
+      .terminal-title { font-family: "JetBrains Mono", monospace; font-size: 13px; fill: #999; }
+      .bold { font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="750" height="600" rx="10" fill="#1e1e2e"/>
+  <rect width="750" height="40" rx="10" fill="#313244"/>
+  <rect y="30" width="750" height="10" fill="#313244"/>
+  <circle cx="20" cy="20" r="7" fill="#f38ba8"/>
+  <circle cx="42" cy="20" r="7" fill="#f9e2af"/>
+  <circle cx="64" cy="20" r="7" fill="#a6e3a1"/>
+  <text x="375" y="25" text-anchor="middle" class="terminal-title">smartnotes --help</text>
+  <text x="16" y="70" fill="#a6e3a1" class="terminal-text bold">$ smartnotes --help</text>
+  <text x="16" y="92" fill="#cdd6f4" class="terminal-text"></text>
+  <text x="16" y="114" fill="#cdd6f4" class="terminal-text">Usage: smartnotes [OPTIONS] COMMAND [ARGS]...</text>
+  <text x="16" y="136" fill="#cdd6f4" class="terminal-text"></text>
+  <text x="16" y="158" fill="#f9e2af" class="terminal-text bold">  📝 SmartNotes — Akıllı Not &amp; Bilgi Yöneticisi</text>
+  <text x="16" y="180" fill="#cdd6f4" class="terminal-text"></text>
+  <text x="16" y="202" fill="#bac2de" class="terminal-text">  Notlarını etiketle, ara, birbirine bağla ve organize et.</text>
+  <text x="16" y="224" fill="#cdd6f4" class="terminal-text"></text>
+  <text x="16" y="246" fill="#89b4fa" class="terminal-text bold">Options:</text>
+  <text x="16" y="268" fill="#cdd6f4" class="terminal-text">  --version  Show the version and exit.</text>
+  <text x="16" y="290" fill="#cdd6f4" class="terminal-text">  --help     Show this message and exit.</text>
+  <text x="16" y="312" fill="#cdd6f4" class="terminal-text"></text>
+  <text x="16" y="334" fill="#89b4fa" class="terminal-text bold">Commands:</text>
+  <text x="16" y="356" fill="#cdd6f4" class="terminal-text">  add      Yeni not ekle</text>
+  <text x="16" y="378" fill="#cdd6f4" class="terminal-text">  delete   Bir notu sil (onay gerekir)</text>
+  <text x="16" y="400" fill="#cdd6f4" class="terminal-text">  edit     Var olan bir notu düzenle</text>
+  <text x="16" y="422" fill="#cdd6f4" class="terminal-text">  export   Notları Markdown veya JSON olarak dışa aktar</text>
+  <text x="16" y="444" fill="#cdd6f4" class="terminal-text">  link     İki notu birbirine bağla</text>
+  <text x="16" y="466" fill="#cdd6f4" class="terminal-text">  list     Notları listele (filtreleme destekli)</text>
+  <text x="16" y="488" fill="#cdd6f4" class="terminal-text">  pin      Notu sabitle / sabitlemeyi kaldır</text>
+  <text x="16" y="510" fill="#cdd6f4" class="terminal-text">  search   Notlarda tam metin araması yap</text>
+  <text x="16" y="532" fill="#cdd6f4" class="terminal-text">  show     Bir notu detaylı görüntüle</text>
+  <text x="16" y="554" fill="#cdd6f4" class="terminal-text">  stats    Not istatistiklerini göster</text>
+  <text x="16" y="576" fill="#cdd6f4" class="terminal-text">  tags     Tüm etiketleri listele</text>
+</svg>

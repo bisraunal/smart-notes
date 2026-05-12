@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="380" viewBox="0 0 750 380">
+  <defs>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap");
+      .terminal-text { font-family: "JetBrains Mono", "Cascadia Code", "Fira Code", monospace; font-size: 13px; }
+      .terminal-title { font-family: "JetBrains Mono", monospace; font-size: 13px; fill: #999; }
+      .bold { font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="750" height="380" rx="10" fill="#1e1e2e"/>
+  <rect width="750" height="40" rx="10" fill="#313244"/>
+  <rect y="30" width="750" height="10" fill="#313244"/>
+  <circle cx="20" cy="20" r="7" fill="#f38ba8"/>
+  <circle cx="42" cy="20" r="7" fill="#f9e2af"/>
+  <circle cx="64" cy="20" r="7" fill="#a6e3a1"/>
+  <text x="375" y="25" text-anchor="middle" class="terminal-title">smartnotes list</text>
+  <text x="16" y="70" fill="#a6e3a1" class="terminal-text bold">$ smartnotes list</text>
+  <text x="16" y="92" fill="#cdd6f4" class="terminal-text"></text>
+  <text x="16" y="114" fill="#89dceb" class="terminal-text bold">                    📋 Notlarım                         </text>
+  <text x="16" y="136" fill="#585b70" class="terminal-text">╭──────┬────┬──────────────────────┬──────────┬─────────────────┬────────────╮</text>
+  <text x="16" y="158" fill="#cdd6f4" class="terminal-text bold">│  ID  │ 📌 │ Başlık               │ Kategori │ Etiketler       │ Güncelleme │</text>
+  <text x="16" y="180" fill="#585b70" class="terminal-text">├──────┼────┼──────────────────────┼──────────┼─────────────────┼────────────┤</text>
+  <text x="16" y="202" fill="#cdd6f4" class="terminal-text">│   1  │ 📌 │ Python Flask Notları │ eğitim   │ python, web     │ 2026-05-13 │</text>
+  <text x="16" y="224" fill="#cdd6f4" class="terminal-text">│   2  │    │ Proje Fikirleri      │ iş       │ proje, startup  │ 2026-05-13 │</text>
+  <text x="16" y="246" fill="#cdd6f4" class="terminal-text">│   3  │    │ Kitap Önerileri      │ kişisel  │ kitap, okuma    │ 2026-05-12 │</text>
+  <text x="16" y="268" fill="#cdd6f4" class="terminal-text">│   4  │    │ Docker Komutları     │ eğitim   │ docker, devops  │ 2026-05-11 │</text>
+  <text x="16" y="290" fill="#cdd6f4" class="terminal-text">│   5  │    │ Alışveriş Listesi    │ günlük   │ market          │ 2026-05-10 │</text>
+  <text x="16" y="312" fill="#585b70" class="terminal-text">╰──────┴────┴──────────────────────┴──────────┴─────────────────┴────────────╯</text>
+  <text x="16" y="334" fill="#cdd6f4" class="terminal-text"></text>
+  <text x="16" y="356" fill="#6c7086" class="terminal-text">  Toplam: 5 not</text>
+</svg>
