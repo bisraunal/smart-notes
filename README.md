@@ -137,6 +137,6 @@ Testler geçici veritabanı kullanır, gerçek verileriniz etkilenmez.
 
 ın
 
-## 📄 Lisans
+## Lisans
 
 Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
