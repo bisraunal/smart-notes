@@ -1,4 +1,4 @@
-# 📝 SmartNotes — Akıllı Not & Bilgi Yöneticisi
+#  SmartNotes — Akıllı Not & Bilgi Yöneticisi
 
 > Notlarını etiketle, ara, birbirine bağla ve düzenli tut. Terminal tabanlı, hafif ve hızlı bir kişisel bilgi yönetim sistemi.
 
@@ -8,11 +8,11 @@
 
 ---
 
-## 🎯 Problem
+##  Problem
 
 Günlük hayatta aldığımız notlar farklı uygulamalara, kağıtlara ve dosyalara dağılır. Bir bilgiyi ararken "nereye yazmıştım?" diye vakit kaybederiz. Notlar arasında bağlantı kurmak, etiketlemek ve hızlıca aramak için basit ama güçlü bir araca ihtiyaç vardır.
 
-## 💡 Çözüm
+##  Çözüm
 
 **SmartNotes** terminal üzerinden çalışan, SQLite tabanlı bir kişisel bilgi yönetim aracıdır:
 
@@ -22,7 +22,7 @@ Günlük hayatta aldığımız notlar farklı uygulamalara, kağıtlara ve dosya
 - **Sabitleme** ile önemli notları öne çıkar
 - **Dışa aktarım** ile notlarını Markdown veya JSON olarak yedekle
 
-## 🚀 Kurulum
+## Kurulum
 
 ```bash
 # Repo'yu klonla
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## 📖 Kullanım
+##  Kullanım
 
 ### Not Ekleme
 ```bash
@@ -93,7 +93,7 @@ smartnotes export -f md            # Markdown olarak
 smartnotes export -f json -o backup.json  # JSON olarak
 ```
 
-## 🏗️ Proje Yapısı
+##  Proje Yapısı
 
 ```
 smart-notes/
@@ -110,7 +110,7 @@ smart-notes/
 └── README.md
 ```
 
-## 🛠️ Teknik Detaylar
+##  Teknik Detaylar
 
 | Bileşen          | Teknoloji                  |
 |-------------------|----------------------------|
@@ -135,13 +135,7 @@ pytest tests/ -v
 
 Testler geçici veritabanı kullanır, gerçek verileriniz etkilenmez.
 
-## 🤝 Katkıda Bulunma
-
-1. Fork'layın
-2. Feature branch oluşturun (`git checkout -b feature/yeni-ozellik`)
-3. Değişikliklerinizi commit'leyin (`git commit -m 'feat: yeni özellik eklendi'`)
-4. Branch'i push'layın (`git push origin feature/yeni-ozellik`)
-5. Pull Request açın
+ın
 
 ## 📄 Lisans
 
